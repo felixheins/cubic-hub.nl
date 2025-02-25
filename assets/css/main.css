@@ -1916,6 +1916,7 @@ button,
     padding-right: 2.75em; }
 
 #sidebar {
+  height: 100%;
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
   -ms-flex-grow: 0;

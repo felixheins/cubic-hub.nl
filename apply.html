@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Apply Now - Job Application</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <style>
+    /* Spacing for form fields */
+    #applicationForm input,
+    #applicationForm select,
+    #applicationForm label {
+      margin-bottom: 1rem;
+      display: block;
+    }
+    #applicationForm button {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body class="is-preload">
+  <div id="wrapper">
+    <!-- Main Content -->
+    <div id="main">
+      <div class="inner">
+        <!-- Header -->
+        <header id="header">
+          <a href="index.html" class="logo"><strong>Cubic</strong> Hub</a>
+        </header>
+
+        <!-- Application Section -->
+        <section>
+          <header class="main">
+            <h1>Get your Application</h1>
+          </header>
+          <p>
+            Your first submission is free! After that, you can choose from one of our pricing options to continue using our services. Submit again and deduct it from your credit or receive a payment link. Save by buying a package.
+          </p>
+
+          <form id="applicationForm" action="https://formspree.io/f/manqkwol" method="POST">
+            <input type="text" name="first_name" placeholder="First Name" required />
+            <input type="text" name="last_name" placeholder="Last Name" required />
+            <input type="text" name="country" placeholder="Country of Residence" required />
+
+            <select name="request" required>
+              <option value="">Select Request</option>
+              <option value="free_application">Request free application</option>
+              <option value="pay_application">Request an application (Pay per application)</option>
+              <option value="buy_credits_10_2">Buy application credits: 10+2</option>
+              <option value="buy_credits_40_10">Buy application credits: 40+10</option>
+            </select>
+
+            <label>
+              <input type="checkbox" name="terms" required />
+              I agree to the <a href="about.html#terms" target="_blank">Terms and Conditions</a>
+            </label>
+
+            <button type="submit">Submit Application</button>
+          </form>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+          <header class="major">
+            <h2>Pricing Bundles</h2>
+          </header>
+          <p>Please select one of the following pricing options that best suits your needs.</p>
+          <div class="row">
+            <div class="col-4 col-12-medium">
+              <div class="box">
+                <h3>Per Application</h3>
+                <p>4.84 € (incl. 21% VAT)</p>
+                <p>Pay as you apply. Every time you submit the form, you receive a payment link.</p>
+                <ul class="actions">
+                  <li><a href="#" class="button">Submit application</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4 col-12-medium">
+              <div class="box">
+                <h3>Career Stepper: 10 + 2 free</h3>
+                <p>48.40 € (incl. 21% VAT)</p>
+                <p>Buy credits for 10 applications and get 2 for free.</p>
+                <ul class="actions">
+                  <li><a href="#" class="button">Buy credits</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-4 col-12-medium">
+              <div class="box">
+                <h3>Job Hunter: 40 + 10 free</h3>
+                <p>193.60 € (incl. 21% VAT)</p>
+                <p>Buy credits for 40 applications and get 10 for free.</p>
+                <ul class="actions">
+                  <li><a href="#" class="button">Buy credits</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div id="sidebar">
+      <div class="inner" style="display: flex; flex-direction: column; height: 100%;">
+        <a href="#sidebar" class="toggle">Toggle</a>
+        <!-- Menu -->
+        <nav id="menu">
+          <header class="major">
+            <h2>Menu</h2>
+          </header>
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/apply.html">Start applying</a></li>
+            <li>
+              <span class="opener">Blog</span>
+              <ul>
+                <li><a href="/blog/alerts.html">Google Alerts for Jobs</a></li>
+                <li><a href="/blog/numbers-game.html">Smart Job Applications</a></li>
+                <li><a href="/blog/recruitment-process.html">How Hiring Works</a></li>
+                <li><a href="/blog/ats-factors.html">Beating the ATS</a></li>
+                <li><a href="/blog/linked-in-cv.html">Download LinkedIn CV</a></li>
+                <li><a href="/blog/file-formats.html">ATS-Friendly CV Formats</a></li>
+              </ul>
+            </li>
+            <li><a href="/apply.html#pricing">Pricing</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </nav>
+
+        <!-- Contact Section -->
+        <section style="margin-top: auto;">
+          <header class="major">
+            <h2>Get in touch</h2>
+          </header>
+          <p>Cubic Hub is a project by <a href="hero-iot.com">HERO IoT</a>. Reach out to the team if you have any questions.</p>
+          <ul class="contact">
+            <li class="icon solid fa-envelope"><a href="#">hello@hero-iot.com</a></li>
+          </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+          <p class="copyright">&copy; Cubic Hub 2025 a project of <a href="hero-iot.com">HERO IoT</a>. All rights reserved. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
